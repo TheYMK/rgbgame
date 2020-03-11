@@ -1,0 +1,72 @@
+body {
+	background-color: white;
+	margin: 0;
+	font-family: 'Lakki Reddy', cursive;
+}
+
+.square {
+	background-color: purple;
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	float: left;
+	border-radius: 15px;
+	transition: background 0.6s;
+}
+
+#container {
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	background-color: #e35d5b;
+	margin: 0;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 20px 0;
+}
+
+#menu {
+	text-align: center;
+	background-color: white;
+	height: 30px;
+	color: black;
+}
+
+#colorDisplay {
+	font-size: 200%;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: #e35d5b;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	outline: none;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+.selected {
+	background-color: #e35d5b;
+	color: white;
+}
+
+button:hover {
+	color: white;
+	background-color: #e35d5b;
+}
