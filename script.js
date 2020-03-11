@@ -79,7 +79,7 @@ function configSquares() {
 				changeColors(clickedColor);
 			} else {
 				message.textContent = 'Wrong !!!';
-				this.style.backgroundColor = '#232323';
+				this.style.backgroundColor = 'white';
 			}
 		});
 	}
